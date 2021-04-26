@@ -1,0 +1,28 @@
+{
+  "name": "tips-counter",
+  "version": "1.0.0",
+  "description": "Excercise to quickly count tips from jar. Used technologies: TypeScript and Jest.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^26.6.3",
+    "jest-fetch-mock": "^3.0.3",
+    "node": "^16.0.0",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node main.ts"
+  },
+  "keywords": [
+    "tips",
+    "TypeScript",
+    "Jest",
+    "counter"
+  ],
+  "author": "Justyna Sobczak",
+  "license": "ISC"
+}
